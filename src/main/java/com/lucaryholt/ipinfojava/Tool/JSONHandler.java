@@ -1,14 +1,13 @@
-package com.lucaryholt.ipinfojava.Service;
+package com.lucaryholt.ipinfojava.Tool;
 
 import com.lucaryholt.ipinfojava.Model.IPInfoHolder;
-import com.lucaryholt.ipinfojava.Tool.ProjectVariable;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.*;
 import java.net.URL;
 
-public class JSONHandler implements IPInfo {
+public class JSONHandler implements com.lucaryholt.ipinfojava.Tool.IPInfo {
 
     private String readAll(BufferedReader rd) throws IOException {
         StringBuilder sb = new StringBuilder();

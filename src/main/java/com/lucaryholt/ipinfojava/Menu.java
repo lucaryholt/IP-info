@@ -1,8 +1,8 @@
 package com.lucaryholt.ipinfojava;
 
 import com.lucaryholt.ipinfojava.Model.IPInfoHolder;
-import com.lucaryholt.ipinfojava.Service.IPInfo;
-import com.lucaryholt.ipinfojava.Service.IPInfoAPI;
+import com.lucaryholt.ipinfojava.Tool.IPInfo;
+import com.lucaryholt.ipinfojava.Tool.IPInfoAPI;
 
 import java.awt.*;
 import java.net.URI;

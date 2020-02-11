@@ -1,4 +1,4 @@
-package com.lucaryholt.ipinfojava.Service;
+package com.lucaryholt.ipinfojava.Tool;
 
 import com.lucaryholt.ipinfojava.Model.IPInfoHolder;
 
