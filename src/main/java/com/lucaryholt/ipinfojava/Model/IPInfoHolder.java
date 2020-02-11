@@ -1,4 +1,4 @@
-package com.lucaryholt.ipinfojava;
+package com.lucaryholt.ipinfojava.Model;
 
 public class IPInfoHolder {
 

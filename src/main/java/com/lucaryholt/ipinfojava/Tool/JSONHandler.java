@@ -1,5 +1,7 @@
-package com.lucaryholt.ipinfojava;
+package com.lucaryholt.ipinfojava.Service;
 
+import com.lucaryholt.ipinfojava.Model.IPInfoHolder;
+import com.lucaryholt.ipinfojava.Tool.ProjectVariable;
 import org.json.JSONException;
 import org.json.JSONObject;
 

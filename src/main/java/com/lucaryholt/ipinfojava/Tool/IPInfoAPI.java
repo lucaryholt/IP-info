@@ -1,10 +1,12 @@
-package com.lucaryholt.ipinfojava;
+package com.lucaryholt.ipinfojava.Service;
 
+import com.lucaryholt.ipinfojava.Model.IPInfoHolder;
+import com.lucaryholt.ipinfojava.Tool.ProjectVariable;
 import io.ipinfo.api.IPInfo;
 import io.ipinfo.api.errors.RateLimitedException;
 import io.ipinfo.api.model.IPResponse;
 
-public class IPInfoAPI implements com.lucaryholt.ipinfojava.IPInfo {
+public class IPInfoAPI implements com.lucaryholt.ipinfojava.Service.IPInfo {
 
     public IPResponse getResponse(String ip){
         IPInfo ipInfo = IPInfo.builder().setToken(ProjectVariable.token).build();
