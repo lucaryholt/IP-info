@@ -23,6 +23,7 @@ public class Menu {
 
     public void main(){
         System.out.println(
+                "\n\n\n" +
                 "IP-Info\n" +
                 "IP: " + ipInfoHolder.getIp() + "\n" +
                 "Location: " + ipInfoHolder.getPostal() + " " + ipInfoHolder.getCity() + "\n"
