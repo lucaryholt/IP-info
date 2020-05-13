@@ -30,7 +30,7 @@ public class Menu {
         );
 
         System.out.println(
-                "(1) Look up other IP\n" +
+                "(1) Look up other IP \n" +
                 "(2) Open location in Google Maps\n" +
                 "(Q) Quit"
         );
